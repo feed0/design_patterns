@@ -1,10 +1,15 @@
 # Software Engineering Design Patterns assessment:
 
 Training sessions app - your personal trainer's advices directly on your mobile.
+
+## SRC folder
+
+All the .java files for the assessment are present in a folder of the same name. They are split into three different sub-folders, one for each design patter (singleton, decorator and strategy). While global classes such as the TrainingApp itself are placed in the assessment folder's root.
+
 <ol>
-    <li>Singleton</li>
-    <li>Decorator</li>
-    <li>Strategy</li>
+    <li>Singleton: makes sure that there's only one Training app instance</li><br>
+    <li>Decorator: provides two types of trainees</li><br>
+    <li>Strategy: </li><br>
 </ol>
 
 # Codespaces

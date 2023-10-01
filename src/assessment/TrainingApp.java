@@ -8,13 +8,13 @@ public class TrainingApp {
 
     private List<String> trainingSessions;
     private List<String> trainers;
-    private List<String> students;
+    private List<String> trainees;
 
     // Private constructor
     private TrainingApp() {
         trainingSessions    =   new ArrayList<>();
         trainers            =   new ArrayList<>();
-        students            =   new ArrayList<>();
+        trainees            =   new ArrayList<>();
     }
 
     /** THe only method to instantiate from other classes
@@ -29,10 +29,10 @@ public class TrainingApp {
 
     /** The main feature of the App: Training Sessions
      * Creates a new session, which consists of the Trainer name
-     * Student name, the exercise and the session length. 
+     * Trainee name, the exercise and the session length. 
      */
-    public void createTrainingSession(String trainer, String student, String exercise, int duration) {
-        String session = "Trainer: " + trainer + ", Student: " + student +
+    public void createTrainingSession(String trainer, String trainee, String exercise, int duration) {
+        String session = "Trainer: " + trainer + ", Trainee: " + trainee +
          ", Exercise: " + exercise + ", Duration: " + duration + " mins";
         trainingSessions.add(session);
     }
@@ -42,8 +42,8 @@ public class TrainingApp {
         trainers.add(trainer);
     }
 
-    public void addStudent(String student) {
-        students.add(student);
+    public void addTrainee(String trainee) {
+        trainees.add(trainee);
     }
 
     // Getters
@@ -55,8 +55,8 @@ public class TrainingApp {
         return trainers;
     }
 
-    public List<String> getStudents() {
-        return students;
+    public List<String> getTrainees() {
+        return trainees;
     }
 
 }
