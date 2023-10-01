@@ -4,13 +4,41 @@ Training sessions app - your personal trainer's advices directly on your mobile.
 
 ## SRC folder
 
-All the .java files for the assessment are present in a folder of the same name. They are split into three different sub-folders, one for each design patter (singleton, decorator and strategy). While global classes such as the TrainingApp itself are placed in the assessment folder's root.
+All the .implementation files for the assessment are present in the "..assesment/patterms" folder. They are three, one for each design patter (singleton, decorator and strategy). While global classes such as the TrainingApp itself are placed in the assessment folder's root.
 
 <ol>
     <li>Singleton: makes sure that there's only one Training app instance</li><br>
     <li>Decorator: provides two types of trainees</li><br>
-    <li>Strategy: </li><br>
+    <li>Strategy: implements two different training sessions, one for each trainee decorator</li><br>
 </ol>
+
+# Data Structures
+The only complex data structure used is Java's standard List<> class. In the singleton lists are used to store trainers and trainees names' along with training sessions.
+
+# 1. Singleton
+<ol>
+    <li>import TrainingApp to your project</li>
+    <li>Call TrainingApp.getInstance to make it's instantiated</li>
+    <li>Use the instance to addTrainer(), addTrainee() or createTrainingSession()</li>
+</ol>
+
+# 2. Decorartor
+<ol> 
+    <li>import TrainingApp, Trainee, HypertrophyTrainee and AerobicsTrainee</li>
+    <li>Define training strategy with TrainingStrategy for your new decorated trainees</li>
+    <li>Train your students using their train method</li>
+
+</ol>
+
+# 3. Strategy
+<ol>
+    <li>import TrainingStrategy, Trainee, HypertrophyTrainee and AerobicsTrainee</li>
+    <li>Define training strategies by implementing the interface</li>
+    <li>Create instances of your decorated trainees and provide the expected training strategy</li>
+    <li>Train your trainees with their .train() method</li>
+</ol>
+
+
 
 # Codespaces
 This repository is codespace enabled: remote IDE!
