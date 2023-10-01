@@ -28,7 +28,7 @@ interface TrainingStrategy {
 class HypertrophyTrainingStrategy implements TrainingStrategy {
     @Override
     public void train(Trainee trainee, String exercise, int weight) {
-        System.out.println("Hypertrophy training for " + trainee.getName() + ": " + exercise + " for " + weight + " mins");
+        System.out.println("Hypertrophy training for " + trainee.getName() + ": " + exercise + " for " + weight + " kgs");
     }
 }
 

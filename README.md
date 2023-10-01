@@ -36,6 +36,7 @@ The only complex data structure used is Java's standard List<> class. In the sin
     <li>Define training strategies by implementing the interface</li>
     <li>Create instances of your decorated trainees and provide the expected training strategy</li>
     <li>Train your trainees with their .train() method</li>
+    <li>Your training sessions are printed on the console</li>
 </ol>
 
 
