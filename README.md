@@ -1,4 +1,4 @@
-# Software Engineering Design Patterns assessment:
+# Software Engineering Design Patterns assessment - Felipe Campelo e Adeide Goncalves:
 
 Training sessions app - your personal trainer's advices directly on your mobile.
 
