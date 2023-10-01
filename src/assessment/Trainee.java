@@ -1,3 +1,0 @@
-interface Trainee {
-    String getName();
-}
